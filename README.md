@@ -1,7 +1,7 @@
-[x] checkExistsUserAccount - middleware
-[x] checksCreateTodosUserAvailability
-[x] checksTodoExists
-[x] findUserById
+- [x] checkExistsUserAccount - middleware
+- [x] checksCreateTodosUserAvailability
+- [x] checksTodoExists
+- [x] findUserById
 
 - Tudo isso para cada usuário específico. Além disso, dessa vez teremos um plano grátis onde o usuário só pode criar até dez todos e um plano Pro que irá permitir criar todos ilimitados, isso tudo usando middlewares para fazer as validações necessárias.
 
