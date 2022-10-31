@@ -7,23 +7,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const users = [
-  {
-    id: uuidv4(),
-    name: "Leonardo",
-    username: "Leonardo",
-    pro: false,
-    todos: [
-      {
-        id: 1,
-        title: "novo",
-        deadline: new Date(),
-        done: false,
-        created_at: new Date(),
-      },
-    ],
-  },
-];
+const users = [];
 
 function checksExistsUserAccount(request, response, next) {
   const { username } = request.headers;
